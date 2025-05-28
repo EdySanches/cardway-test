@@ -12,7 +12,8 @@ Teste técnico admissional para o cargo de Desevolvedor Backend Pleno na Cardway
 3. **Navegue até o diretório** onde o arquivo `challenge-1.js` está localizado:
   ```bash
   cd caminho/para/o/arquivo
+  ```
 4. **Execute o arquivo com NodeJS** utilizando o seguinte comando
   ```bash
   node challenge-1.js
-
+  ```
