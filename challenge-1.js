@@ -14,11 +14,11 @@
 function sortEvenOdd(arr) {
     // Retorna nulo caso o array não seja composto apenas por números
     if (!(Array.isArray(arr) && arr.every(item => typeof item === 'number'))) 
-        return null
+        return null;
 
     // Retorna o array caso esteja vazio 
     if (arr.length == 0)
-        return arr
+        return arr;
 
     // Separa os números pares e ímpares
     const evens = arr.filter(num => num % 2 === 0);
