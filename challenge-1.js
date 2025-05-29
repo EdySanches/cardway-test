@@ -13,9 +13,11 @@
  */
 function sortEvenOdd(arr) {
     // Retorna nulo caso o array não seja composto apenas por números
-    if (!(Array.isArray(arr) && arr.every(item => typeof item === 'number'))) 
+    if (!(Array.isArray(arr) && arr.every(item => typeof item === 'number'))) {
+        console.error('A variavel passada como parâmetro deve ser um array de números.')
         return null;
-
+    }    
+    
     // Retorna o array caso esteja vazio 
     if (arr.length == 0)
         return arr;

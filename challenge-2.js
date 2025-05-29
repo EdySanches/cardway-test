@@ -12,8 +12,10 @@
  */
 function getBiggestPalindromeSubstring(str) {
     // Retorna null caso o param não seja uma string
-    if (typeof str !== 'string') 
+    if (typeof str !== 'string') {
+        console.error('A variavel passada como parâmetro deve ser do tipo string.')
         return null;
+    }
 
     // Retorna string vazia caso esteja vazio 
     if (str.length < 1)
