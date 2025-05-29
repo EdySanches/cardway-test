@@ -24,10 +24,16 @@ Certifique-se de estar no diretório onde o arquivo está localizado antes de ex
 ### Desafio 1 - Algoritmos: Ordenação Personalizada
 #### Nome do arquivo
 `challenge-1.js`
-#### Notas
-- O desafio consiste em implementar uma função que ordene um array de objetos com base em uma propriedade específica.
 ### Desafio 2 - Algoritmos: Substring Palíndroma
 #### Nome do arquivo
 `challenge-2.js`
+### Desafio 3 - Algoritmos: Implementar um Debounce
+#### Nome do arquivo
+`challenge-3.js`
+### Desafio 4 - Algoritmos: Redução Personalizada
+#### Nome do arquivo
+`challenge-4.js`
 #### Notas
-- O desafio consiste em implementar uma função que encontre a maior substring palíndroma em uma string fornecida.
+- Tendo em vista a ambiguidade presente no enunciado, na descrição sobre o "um campo específico", foram implementadas duas versões:
+  - Genérica: Implementação que recebe o nome do campo a ser acumulado, aberto ao usuário.
+  - Específica: Implementação que considera o exemplo do enunciado, o campo 'price'.
