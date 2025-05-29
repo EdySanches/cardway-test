@@ -25,8 +25,8 @@ function sortEvenOdd(arr) {
     const odds = arr.filter(num => num % 2 !== 0);
 
     /*
-     * Para arrays numéricos o algoritmo utilizado pelo Node é o TimSort, embora
-     *  navegadores usem o QuikSort.
+     * Para arrays numéricos o algoritmo utilizado pelo V8 geralmente é o 
+     *  TimSort, embora possam haver diferenças por navegador ou tamanho do array.
      * Necessário passar a função de comparação pois o JS converte os elementos 
      *  para string por padrão caso não hajam instruções.
      */
