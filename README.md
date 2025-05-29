@@ -4,28 +4,30 @@ Teste técnico admissional para o cargo de Desevolvedor Backend Pleno na Cardway
 ## Pré-requisitos
 - [Node.js](https://nodejs.org/) (versão 20 ou superior recomendada)
 
+## Como Executar os Códigos
+- **Arquivos JavaScript (`.js`)**:  
+  Execute utilizando o Node.js no terminal:
+  ```bash
+  node nome-do-arquivo.js
+  ```
+
+- **Arquivos Java pré-compilados (`.class`)**:  
+  Execute utilizando o Java no terminal:
+  ```bash
+  java NomeDoArquivo
+  ```
+  > *Obs.: Não inclua a extensão `.class` ao rodar o comando acima.*
+
+Certifique-se de estar no diretório onde o arquivo está localizado antes de executar os comandos.
+
 ## Desafios
 ### Desafio 1 - Algoritmos: Ordenação Personalizada
-#### Como Executar
-1. **Obtenha o arquivo** clone o repositório ou extraia o arquivo `challenge-1.js` do pacote comprimido.
-2. **Abra o terminal** (Prompt de Comando, PowerShell ou terminal do seu sistema operacional).
-3. **Navegue até o diretório** onde o arquivo `challenge-1.js` está localizado:
-  ```bash
-  cd caminho/para/o/arquivo
-  ```
-4. **Execute o arquivo com NodeJS** utilizando o seguinte comando
-  ```bash
-  node challenge-1.js
-  ```
+#### Nome do arquivo
+`challenge-1.js`
+#### Notas
+- O desafio consiste em implementar uma função que ordene um array de objetos com base em uma propriedade específica.
 ### Desafio 2 - Algoritmos: Substring Palíndroma
-#### Como Executar
-1. **Obtenha o arquivo** clone o repositório ou extraia o arquivo `challenge-1.js` do pacote comprimido.
-2. **Abra o terminal** (Prompt de Comando, PowerShell ou terminal do seu sistema operacional).
-3. **Navegue até o diretório** onde o arquivo `challenge-1.js` está localizado:
-  ```bash
-  cd caminho/para/o/arquivo
-  ```
-4. **Execute o arquivo com NodeJS** utilizando o seguinte comando
-  ```bash
-  node challenge-2.js
-  ```
+#### Nome do arquivo
+`challenge-2.js`
+#### Notas
+- O desafio consiste em implementar uma função que encontre a maior substring palíndroma em uma string fornecida.
