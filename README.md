@@ -1,13 +1,23 @@
 # Teste Cardway
-Teste técnico admissional para o cargo de Desevolvedor Backend Pleno na Cardway.
+Teste técnico admissional para o cargo de Desenvolvedor Backend Pleno na Cardway.
 
 ## Pré-requisitos
-- [Java JDK](https://adoptium.net/) (versão 17 ou superior)
+- [Java JDK](https://www.java.com/en/download/manual.jsp) (versão 17 ou superior)
 - [Node.js](https://nodejs.org/) (versão 20 ou superior recomendada)
 - [Next.js](https://nextjs.org/) - Pode ser instalado via npm:
   ```bash
   npm install next@latest
   ```
+
+## Obtendo os Códigos
+Existem duas maneiras de obter os códigos dos desafios:
+
+1. **Via Git (Recomendado)**:
+   ```bash
+   git clone [URL do repositório]
+   ```
+2. **Via Download**:  
+   Entre em contato com o autor do projeto para solicitar o arquivo ZIP com todos os códigos.
 
 ## Como Executar os Códigos
 - **Arquivos Java pré-compilados (`.class`)**:  
