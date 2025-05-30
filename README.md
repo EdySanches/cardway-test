@@ -73,6 +73,10 @@ Certifique-se de estar no diretório onde o arquivo está localizado antes de ex
 - O mesmo projeto em React contém os desafios 5 e 6.
 - O Context é utilizado em toda aplicação, e mais especificamente no componente `LoginPage` em `login/page.tsx` para Login e no componente `ProfilePage` em `profile/page.tsx` para obter dados do usuário e realizar Logout.
 
+### Desafio 9 - Algoritmos: Mochila Fracionária
+#### Caminho do arquivo
+`js/challenge-9.js`
+
 ### Desafio 10 - Javascript: Fibonacci com Memoization
 #### Caminho do arquivo
 `js/challenge-10.js`
