@@ -42,4 +42,4 @@ function sortEvenOdd(arr) {
 // Exemplo de uso
 const array = [3, 17, 32, 48, 6, 11, 5, 5, 9, 6, 7, 12];
 const sortedArray = sortEvenOdd(array);
-console.log(sortedArray);
+console.log('Lista ordenada: ', sortedArray);

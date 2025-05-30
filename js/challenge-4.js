@@ -41,5 +41,5 @@ function sumPrices(arr) {
 
 // Exemplo de uso
 const items = [{ price: 10 }, { price: 20 }, { price: 15 }];
-console.log('Método genérico:', sumPropValues(items, 'price')); 
-console.log('Método específico:', sumPrices(items)); 
+console.log('Método genérico: ', sumPropValues(items, 'price')); 
+console.log('Método específico: ', sumPrices(items)); 

@@ -10,7 +10,7 @@
  * @param {*} func Função a ser executada.
  * @returns {function} Função designada contendo o debounce. 
  */
-function debounce(func, delay) {
+function fractionalKnapsack(func, delay) {
     // Gera notificação caso o param delay não seja do tipo number
     if (typeof delay !== 'number') {
         console.error("A variavel 'delay' deve ser do tipo number.")
@@ -32,5 +32,5 @@ function debounce(func, delay) {
 }
 
 // Exemplo de uso
-const debouncedFunction = debounce(() => console.log("Chamado!"), 300);
+const debouncedFunction = fractionalKnapsack(() => console.log("Chamado!"), 300);
 debouncedFunction(); // Chamado após 300ms

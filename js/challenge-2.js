@@ -53,9 +53,9 @@ function getBiggestPalindromeSubstring(str) {
 }
 
 // Exemplo de uso
-console.log(getBiggestPalindromeSubstring('OSSOaoARARAsonodvREVIVERoivnRADAR'));
-console.log(getBiggestPalindromeSubstring('babad'));
-console.log(getBiggestPalindromeSubstring('ABBA'));
-console.log(getBiggestPalindromeSubstring('abcdefghi'));
-console.log(getBiggestPalindromeSubstring('a'));
-console.log(getBiggestPalindromeSubstring(''));
+console.log('Maior substring encontrada: ', getBiggestPalindromeSubstring('OSSOaoARARAsonodvREVIVERoivnRADAR'));
+console.log('Maior substring encontrada: ', getBiggestPalindromeSubstring('babad'));
+console.log('Maior substring encontrada: ', getBiggestPalindromeSubstring('ABBA'));
+console.log('Maior substring encontrada: ', getBiggestPalindromeSubstring('abcdefghi'));
+console.log('Maior substring encontrada: ', getBiggestPalindromeSubstring('a'));
+console.log('Maior substring encontrada: ', getBiggestPalindromeSubstring(''));
