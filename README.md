@@ -77,6 +77,10 @@ Certifique-se de estar no diretório onde o arquivo está localizado antes de ex
 #### Caminho do arquivo
 `java/challenge-7/Order.class`
 
+### Desafio 8 - Java: Anagramas
+#### Caminho do arquivo
+`java/challenge-8/Anagram.class`
+
 ### Desafio 9 - Algoritmos: Mochila Fracionária
 #### Caminho do arquivo
 `js/challenge-9.js`
