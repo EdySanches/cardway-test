@@ -36,7 +36,6 @@ function fractionalKnapsack(items, maxWeight) {
     return totalValue;
 }
 
-const items = [{value: 80, weight: 70}, {value: 60, weight: 20}, {value: 130, weight: 50}];
-
 // Exemplo de uso
+const items = [{value: 80, weight: 70}, {value: 60, weight: 20}, {value: 130, weight: 50}];
 console.log('Valor total da mochila: ', fractionalKnapsack(items, 100))
